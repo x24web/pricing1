@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   min-height: 100vh;
+  padding: 20px 0px;
 }
 #all-price1 .price-box {
   background: #3d3250;
@@ -83,6 +84,7 @@
   align-items: center;
   min-height: 100vh;
   background: #c1c1c1;
+  padding: 20px 0px;
 }
 #price2 .box {
   margin-bottom: 22px;
