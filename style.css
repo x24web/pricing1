@@ -88,6 +88,14 @@
 #price2 .box:hover {
   transform: scale(1.05);
 }
+#price2 .box:hover .item .content {
+  height: 100%;
+}
+#price2 .box:hover .item .content p {
+  font-size: 18px;
+  padding: 10px 16px;
+  margin: 6px auto 12px;
+}
 #price2 .box .price {
   background: #fff;
   color: #7e47c9;
@@ -127,12 +135,16 @@
   margin: 0px 10px;
   background: white;
   border-radius: 0 0 10px 10px;
+  height: 10px;
+  transition-duration: 5s;
 }
 #price2 .box .item .content p {
-  font-size: 18px;
+  font-size: 0px;
   font-weight: 400;
   text-align: center;
-  padding: 10px 16px;
+  padding: 0px 16px;
+  transition: all 1s ease;
+  margin: 0;
 }
 #price2 .box .item .btn {
   margin: 0 auto -42px;
